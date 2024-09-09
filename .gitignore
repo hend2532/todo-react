@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/1-pizza menu
+/add product
+/steps
 /.pnp
 .pnp.js
 

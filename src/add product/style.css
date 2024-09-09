@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.product{
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 15px;
+}
+.card,form,choose{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    gap: 10px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+}
+form{
+    width: 50%;
+    margin: 20px auto ;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.price{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+button{
+    padding:10px 0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    min-width: 100px;
+    max-width: 100px;
+    margin: auto;
+    cursor: pointer;
+    background: orangered;
+}
+button:hover{
+    background: rgba(255, 68, 0, 0.625);
+}
+label{
+    color: red;
+    text-align: left;
+    margin: 0px 15%;
+}
+input{
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: 1px solid orangered;
+}
